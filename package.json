@@ -1,0 +1,57 @@
+{
+  "name": "nasg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auth Secret Generator — Generate cryptographically secure secrets for your Next.js apps. No data is stored or transmitted.",
+  "author": {
+    "name": "UltraLion",
+    "email": "ultralionfr@gmail.com",
+    "url": "https://ultralion.xyz"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UltraLionfr/nasg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UltraLionfr/nasg/issues"
+  },
+  "homepage": "https://nasg.ultralion.xyz",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.540.0",
+    "next": "15.5.0",
+    "postcss": "^8.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.33.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "15.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "tw-animate-css": "^1.3.7",
+    "typescript": "^5",
+    "typescript-eslint": "^8.40.0"
+  },
+  "engines": {
+    "node": ">=18.18.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
